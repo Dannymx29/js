@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+</head>
+<body>
+
+    <!--Ajax1-->
+
+    <div class="container">
+
+        <div class="section">
+
+            <button class="btn" id="btnAjax">Ajax</button>
+
+        </div>
+
+        <div class="section" id="respuesta"></div>
+
+    </div>
+
+    <!--Ajax2-->
+
+    <div class="container">
+
+        <div class="section">
+
+            <button class="btn" id="Json">Json</button>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Titulo</th>
+                        <th>Artista</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="res"></tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+    <!--Ajax3-->
+
+    <div class="container">
+
+        <div class="section">
+
+            <button class="btn blue" id="dolar" onclick="taza('dolar')">Dolar</button>
+
+            <button class="btn red" id="uf">Uf</button>
+
+        </div>
+
+        <div class="section">
+            <ul id="resultado"></ul>
+        </div>
+
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./ajax1.js"></script>
+    <script src="./ajax2.js"></script>
+    <script src="./ajax3.js"></script>
+    
+</body>
+</html>
